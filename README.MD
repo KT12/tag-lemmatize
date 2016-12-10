@@ -10,6 +10,8 @@ Clone and add to `path`.
 
 `import` to the Python interpreter.
 
+`tag_and_lem` is the primary function.
+
 ## Motivation
 
 The `nltk` pre-trained part-of-speech tagger uses Penn Treebank tags which must be converted to Wordnet tags in order to use `nltk`'s lemmatizer.  This small utility should make it easier to test of Natural Language Processing techniques without training a tagger which uses Wordnet tags.
