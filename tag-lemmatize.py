@@ -13,6 +13,8 @@ from nltk import pos_tag
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 
+# WordNet only cares about 4 parts of speech.
+# The other parts of speech will be encoded as nouns.
 part = {
     'N' : 'n',
     'V' : 'v',
